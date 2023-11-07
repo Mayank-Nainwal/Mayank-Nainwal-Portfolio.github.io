@@ -1,0 +1,29 @@
+.fourthSection{
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  .mail-send{
+    font-size: 1.2rem;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+
+  .five{
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  .five-content img{
+    width: 40px;
+  }
+
+  .five-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }

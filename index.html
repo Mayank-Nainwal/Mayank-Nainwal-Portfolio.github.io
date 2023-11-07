@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="achievement.css">
+    <link rel="stylesheet" href="project.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mayank Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: rgb(218, 218, 246);
+            font-size: 1.01rem;
+        }
+
+        .content-title {
+            display: flex;
+            margin-left: 50px;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(153, 153, 226);
+            height: 1.3px;
+            margin: 60px 84px;
+            margin-bottom: 100px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 54px 0;
+        }
+
+        .firstSection>div {
+            width: 35%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+
+        .rightSection img {
+            width: 70%;
+        }
+
+        .purple {
+            color: rgb(154, 82, 221);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(154, 82, 221);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .box {
+            background-color: white;
+            width: 20vw;
+            height: 1px;
+            margin-top: 22px;
+            margin-left: 20px;
+            margin-bottom: 60px;
+        }
+
+        .about-content {
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            margin-left: 110px;
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mayank,s Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a href="">
+                        <li>Home</li>
+                    </a>
+                    <a href="">
+                        <li>About</li>
+                    </a>
+                    <a href="">
+                        <li>Projects</li>
+                    </a>
+                    <a href="">
+                        <li>Contact Me</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Mayank Nainwal</span> and I am a Passionate
+                <span id="element"></span><br>
+                <a href="https://drive.google.com/drive/folders/1DUN5k6H8xhEqK2kAlw8nhCWjUlgtiWml?usp=sharing"><button class="btn">Resume</button></a>
+            </div>
+            <div class="rightSection">
+                <img src="images/home.png" alt="Developer">
+            </div>
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">Let me Introduce myself</span>
+            <div class="content-title">
+                <div>
+                    <h1>About Me</h1>
+                </div>
+                <div class="box"></div>
+            </div>
+            <div class="about-content">
+                I'm currently pursuing my <span class="purple">Master of Application(MCA)</span> at <span
+                    class="purple">National Institute of Technology(NIT), Raipur</span> (2021-2024). My academic journey
+                has been a thrilling ride, filled with intriguing courses and projects that have broadened my horizons.
+                I'm always excited to explore new concepts, challenge my problem-solving skills, and push the boundaries
+                of what's possible.
+            </div>
+            <div class="achivement">
+                <div class="achive-struct">
+                    <div class="vertical"></div>
+                    <div class="horizontal"></div>
+                    <div class="achive-content">Meta Hacker Cup 2022 Qualifier</div>
+                </div>
+                <div class="achive-struct">
+                    <div class="vertical"></div>
+                    <div class="horizontal"></div>
+                    <div class="achive-content">5 star badge in Problem Solving on Hackerrank.</div>
+                </div>
+                <div class="achive-struct">
+                    <div class="vertical"></div>
+                    <div class="horizontal"></div>
+                    <div class="achive-content">Falls under top 12% coder globally in Leetcode</div>
+                </div>
+                <div class="achive-struct">
+                    <div class="vertical"></div>
+                    <div class="horizontal"></div>
+                    <div class="achive-content">Solved 500+ problems on programming platforms like Codechef, Codeforces,
+                        Leetcode and GFG</div>
+                </div>
+                <div class="achive-struct">
+                    <div class="vertical"></div>
+                    <div class="horizontal"></div>
+                    <div class="achive-content">Technology Used - JSP, Servlet, Hibernate, Django, JavaScript, Git,
+                        Github and MySQL</div>
+                </div>
+                <div class="achive-struct">
+                    <div class="vertical"></div>
+                    <div class="horizontal"></div>
+                    <div class="achive-content">Programming Languages - Java, Python and C++</div>
+                </div>
+            </div>
+            <div style="margin-bottom: 150px;"></div>
+        </section>
+        <section class="thirdSection">
+            <span class="text-gray">What I have done so far</span>
+            <div class="content-title">
+                <div>
+                    <h1>Projects</h1>
+                </div>
+                <div class="box"></div>
+            </div>
+            <div class="project" style="display: flex;">
+                <div class="project-content" style="display: flex;">
+                    <div class="project-left"><img src="images/project1.png" width="500px" alt="Medico Project"></div>
+                    <div class="project-right" style="margin-left: 30px;">
+                        <a href="https://github.com/Mayank-Nainwal/Medico">
+                            <h1>Medico</h1>
+                        </a>
+                        <ul>
+                            <li>JSP, Servlet, Hibernate, HTML, CSS, Bootstrap, Javascript</li>
+                            <li>Medico is an online pharmaceutical store that facilitates the purchase of medicines.
+                            </li>
+                            <li>For User Login, users can seamlessly add items to their cart and proceed to order them,
+                                with delivery to their provided address.</li>
+                            <li>Employed Servlets, Java-based components, to handle HTTP requests and manage application
+                                logic.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-bottom: 80px;"></div>
+
+            <div class="project" style="display: flex;">
+                <div class="project-content" style="display: flex;">
+                    <div class="project-left"><img src="images/project2.png" width="500px" alt="Medico Project"></div>
+                    <div class="project-right" style="margin-left: 30px;">
+                        <h1>Object Detection Model</h1>
+                        <ul>
+                            <li>Yolov8 and VisDrone Dataset</li>
+                            <li>This is a Project for Object detection using Yolov8 under the guidance of Dr. Tanmoy
+                                Kanti Das , Professor at NIT Raipur</li>
+                            <li>Python, Google Collab, UAV</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-bottom: 150px;"></div>
+        </section>
+
+
+        <section class="fourthSection">
+            <span class="text-gray" style="margin-left: 260px;">What's next ??</span>
+            <div class="content-title" style="margin-left: 280px;">
+                <div>
+                    <h1>Get in touch</h1>
+                </div>
+                <div class="box"></div>
+            </div>
+            <div class="mail-send">
+                My inbox is always open. Whether you have a question or just want to say hello, I'll try my best to get
+                back to you! Feel free to connect with me about any relevant job updates.<br>
+        
+        </section>
+
+
+        <section class="five">
+            <div class="five-content">
+                <div class="mail">
+                    <a href="mailto:nmayank678@gmail.com"><img src="images/mail.png" alt="Mail"></a>
+                </div>
+                <div class="linkedin">
+                    <a href="https://www.linkedin.com/in/mayank-nainwal-713241224/"><img src="images/linkedin.png" alt="Linkedin"></a>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/Mayank-Nainwal"><img src="images/github.png" alt="Github"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- TYPE JS USED HERE -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Learner', 'Coder', 'Web Developer'],
+            typeSpeed: 75,
+        });
+    </script>
+    <div class="case" style="margin-bottom: 100px;"></div>
+</body>
+
+</html>

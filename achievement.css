@@ -1,0 +1,38 @@
+.achievement{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .achive-struct > {
+    margin-top: 20px;
+  }
+
+  .achive-struct{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .vertical{
+    background-color: white;
+        width: 2px;
+        height: 40px;
+  }
+
+  .horizontal{
+    background-color: white;
+        width: 30px;
+        height: 2px;
+  }
+
+  .achive-content{
+    color: rgb(154, 82, 221);
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+
+  .thirdSection{
+    max-width: 80vw;
+    margin: auto;
+  }
